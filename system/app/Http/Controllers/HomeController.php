@@ -26,5 +26,8 @@ class HomeController extends Controller{
 	function showTemplate(){
 		return view('template.base');
 	}
+	function showregister(){
+		return view('register');
+	}
 }
 
